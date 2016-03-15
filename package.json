@@ -1,0 +1,13 @@
+{
+    "name": "npm-cli-init",
+    "version": "0.1.0",
+    "description": "npm cli interface development init.",
+    "repository": "http://github.com/Julienedies/npm-cli-init.git",
+    "main":"index.js",
+    "bin": {
+        "cli_test": "bin/cli_test"
+    },
+    "devDependencies": {
+    },
+    "scripts": {}
+}
