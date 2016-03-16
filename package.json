@@ -1,24 +1,29 @@
 {
-    "name": "npm-cli-init",
-    "version": "1.1.0",
-    "description": "npm cli interface development init.",
-    "preferGlobal": "true",
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/Julienedies/npm-cli-init.git"
-    },
-    "main": "index.js",
-    "bin": {
-        "julienedies": "bin/test"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "preInstall": ""
-    },
-    "bugs": {
-        "url": "https://github.com/Julienedies/npm-cli-init/issues"
-    },
-    "homepage": "https://github.com/Julienedies/npm-cli-init#readme",
-    "author": "",
-    "license": "ISC"
+  "name": "npm-cli-init",
+  "version": "1.1.0",
+  "description": "npm cli interface development init.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Julienedies/npm-cli-init.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "init": "npm i request --save",
+    "preInstall": ""
+  },
+  "bin": {
+    "julienedies": "bin/test"
+  },
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "https://github.com/Julienedies/npm-cli-init/issues"
+  },
+  "homepage": "https://github.com/Julienedies/npm-cli-init#readme",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {}
 }
